@@ -4,10 +4,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fable</title>
+  
   <!--tailwindcss-->
   <link href="./assets/css/output.css" rel="stylesheet">
+<!--fontawesome-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--font family -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  
+  <!--Header-->
+  <header class=" py-9.25 fixed w-full ">
+    <div class="container mx-auto flex justify-between items-center ">
+      <div class="block lg:hidden text-white text-[20px]"><i class="fa-solid fa-bars"></i></div>
+     <div>
+      <a href="#" class="text-[30px] md:text-[40px] font-bold text-white">Fable</a>
+     </div>
+      <nav class=" hidden lg:block">
+        <ul class="flex gap-11.25">
+          <li class="nav-link">
+            <a href="">HOME</a>
+          </li>
+          <li  class="nav-link">
+            <a href="">ABOUT US</a>
+          </li>
+          <li  class="nav-link">
+            <a href="">MENU</a>
+          </li>
+          <li  class="nav-link">
+            <a href="">RESERVATION</a>
+          </li>
+           <li  class="nav-link">
+            <a href="">GALLERY</a>
+          </li>
+          <li  class="nav-link">
+            <a href="">CONTACT</a>
+          </li>
+          <div class="w-1 h-8.5 bg-white"></div>
+        </ul>
+      </nav>
+      
+     <div class="flex gap-6.25 items-center">
+       <div class="flex gap-2.5 text-[24px] md:text-[28px] text-white">
+        <i class="fa-brands fa-twitter hover:text-primarycolor transition-colors "></i>
+        <i class="fa-brands fa-facebook-f hover:text-primarycolor transition-colors "></i>
+        <i class="fa-brands fa-instagram hover:text-primarycolor transition-colors "></i>
+      </div>
+      <div class="bg-primarycolor py-1.25 px-2 text-[16px]  md:py-2.5 md:px-3.75 lg:text-[24px]  hover:bg-black hover:border hover:border-white group transition-all duration-300 ease-in-out">
+        <a href="" class="text-black font-semibold group-hover:text-white">BOOK A TABLE</a>
+      </div>
+     </div>
+    </div>
+  </header>
 </body>
 </html>

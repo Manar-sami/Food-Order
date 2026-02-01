@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  --color-primarycolor: #F8BF2C;
+  --font-primary:"Alex Brush", cursive;
+}
+ @utility nav-link{
+    @apply text-white font-semibold text-[20px] hover:text-primarycolor transition-colors;
+ }
