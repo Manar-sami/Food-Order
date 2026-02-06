@@ -27,7 +27,7 @@
       <nav class=" hidden lg:block">
         <ul class="flex gap-11.25">
           <li class="nav-link">
-            <a href="">HOME</a>
+            <a href="./index.html">HOME</a>
           </li>
           <li  class="nav-link">
             <a href="">ABOUT US</a>
@@ -49,7 +49,10 @@
       </nav>
       
      <div class="flex gap-6.25 items-center">
-       <div class="flex gap-2.5 text-[24px] md:text-[28px] text-white">
+        <div class="block md:hidden">
+        <i class="fa-solid fa-share-nodes hover:text-primarycolor transition-colors text-white text-[24px]"></i>
+      </div>
+       <div class="flex gap-2.5 text-[24px] md:text-[28px] text-white hidden md:block">
         <i class="fa-brands fa-twitter hover:text-primarycolor transition-colors "></i>
         <i class="fa-brands fa-facebook-f hover:text-primarycolor transition-colors "></i>
         <i class="fa-brands fa-instagram hover:text-primarycolor transition-colors "></i>
@@ -57,8 +60,71 @@
       <div class="bg-primarycolor py-1.25 px-2 text-[16px]  md:py-2.5 md:px-3.75 lg:text-[24px]  hover:bg-black hover:border hover:border-white group transition-all duration-300 ease-in-out">
         <a href="" class="text-black font-semibold group-hover:text-white">BOOK A TABLE</a>
       </div>
+  
      </div>
     </div>
   </header>
+
+  <!--slider-->
+
+<div class="carousel w-full">
+  <div id="item1" class="carousel-item w-full">
+    <section class="bg-[url(./../image/home/slider/FRENCH_CUISINE.png)]  bg-cover bg-no-repeat bg-center h-screen  w-full ">
+    <div class="container mx-auto flex flex-col gap-3.5 justify-center items-center h-full text-center md:gap-6.5 ">
+    <div >
+      <img src="./assets/image/home/slider/slider-logo.png" alt="slider/slider-logo" class=" w-full">
+    </div>
+    <div>
+      <h1 class="text-[40px] font-bold text-white lg:text-[80px] ">FRENCH CUISINE</h1>
+      <p class="text-[20px] text-white lg:text-[30px]">We’re Know for Great French Cooking</p>
+    </div>
+    <div>
+      <a href="#" class="text-[20px] text-white hover:bg-[#ffffff33] p-1 lg:text-[30px]">DISCOVER STORY</a>
+    </div>
+    </div>
+   </section>
+  </div>
+  <div id="item2" class="carousel-item w-full">
+    <section class="bg-[url(./../image/home/slider/AWARDED_CHEFS.png)]  bg-cover bg-no-repeat bg-center h-screen  w-full ">
+    <div class="container mx-auto flex flex-col gap-6.5 justify-center items-center h-full text-center ">
+    <div >
+      <img src="./assets/image/home/slider/slider-logo.png" alt="slider/slider-logo">
+    </div>
+    <div>
+      <h1 class="text-[40px] font-bold text-white lg:text-[80px]">AWARDED CHEFS</h1>
+      <p class="text-[20px] text-white lg:text-[30px]">We’re Know for Great French Cooking</p>
+    </div>
+    <div>
+      <a href="#" class="text-[20px] text-white hover:bg-[#ffffff33] p-1 lg:text-[30px]">MEET CHEPS</a>
+    </div>
+    </div>
+   </section>
+  </div>
+  <div id="item3" class="carousel-item w-full">
+   <section class="bg-[url(./../image/home/slider/FRESH_INGREDIENTS.png)]  bg-cover bg-no-repeat bg-center h-screen   w-full">
+    <div class="container mx-auto flex flex-col gap-6.5 justify-center items-center h-full text-center ">
+    <div >
+      <img src="./assets/image/home/slider/slider-logo.png" alt="slider/slider-logo">
+    </div>
+    <div>
+      <h1 class="text-[40px] font-bold text-white lg:text-[80px]">FRESH INGREDIENTS</h1>
+      <p class="text-[20px] text-white lg:text-[30px]">We’re Know for Great French Cooking</p>
+    </div>
+    <div>
+      <a href="#" class="text-[20px] text-white hover:bg-[#ffffff33] p-1 lg:text-[30px]">THE INGREDIENTS</a>
+    </div>
+    </div>
+   </section>
+  </div>
+
+  <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex gap-3 z-20">
+  <a href="#item1" class="btn btn-xs btn-slider"></a>
+  <a href="#item2" class="btn btn-xs btn-slider"></a>
+  <a href="#item3" class="btn btn-xs btn-slider"></a>
+</div>
+
+</div>
+
+
 </body>
 </html>

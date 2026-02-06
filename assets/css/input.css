@@ -8,3 +8,6 @@
  @utility nav-link{
     @apply text-white font-semibold text-[20px] hover:text-primarycolor transition-colors;
  }
+ @utility btn-slider{
+    @apply rounded-full w-5.25 h-5.25 border border-white border-solid bg-[#ffffff00] text-black  active:bg-white;
+ }
