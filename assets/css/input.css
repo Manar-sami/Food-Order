@@ -3,6 +3,7 @@
 
 @theme {
   --color-primarycolor: #F8BF2C;
+  --color-secondarycolor: #F8842C;
   --font-primary:"Alex Brush", cursive;
 }
  @utility nav-link{
