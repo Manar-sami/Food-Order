@@ -1438,6 +1438,30 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\.\/\.\.\/\)\] {
+    background-image: url(./../);
+  }
+  .bg-\[url\(\.\/\.\.\/image\)\] {
+    background-image: url(./../image);
+  }
+  .bg-\[url\(\.\/\.\.\/image\/\)\] {
+    background-image: url(./../image/);
+  }
+  .bg-\[url\(\.\/\.\.\/image\/home\)\] {
+    background-image: url(./../image/home);
+  }
+  .bg-\[url\(\.\/\.\.\/image\/home\/\)\] {
+    background-image: url(./../image/home/);
+  }
+  .bg-\[url\(\.\/\.\.\/image\/home\/NARURAL-FLAVORS\/FRENCH_CUISINE\.png\)\] {
+    background-image: url(./../image/home/NARURAL-FLAVORS/FRENCH_CUISINE.png);
+  }
+  .bg-\[url\(\.\/\.\.\/image\/home\/NARURAL-FLAVORS\/NARURAL_FLAVORS\.png\)\] {
+    background-image: url(./../image/home/NARURAL-FLAVORS/NARURAL_FLAVORS.png);
+  }
   .bg-\[url\(\.\/\.\.\/image\/home\/slider\/AWARDED_CHEFS\.png\)\] {
     background-image: url(./../image/home/slider/AWARDED_CHEFS.png);
   }
@@ -1504,6 +1528,21 @@
   .py-18 {
     padding-block: calc(var(--spacing) * 18);
   }
+  .py-42 {
+    padding-block: calc(var(--spacing) * 42);
+  }
+  .py-60 {
+    padding-block: calc(var(--spacing) * 60);
+  }
+  .py-80 {
+    padding-block: calc(var(--spacing) * 80);
+  }
+  .py-\[1\] {
+    padding-block: 1;
+  }
+  .py-\[168px\] {
+    padding-block: 168px;
+  }
   .text-center {
     text-align: center;
   }
@@ -1551,6 +1590,9 @@
   .text-\[80px\] {
     font-size: 80px;
   }
+  .text-\[100px\] {
+    font-size: 100px;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -1561,6 +1603,9 @@
   }
   .text-wrap {
     text-wrap: wrap;
+  }
+  .text-\[6\] {
+    color: 6;
   }
   .text-\[px\] {
     color: px;
@@ -1709,6 +1754,11 @@
       padding-block: calc(var(--spacing) * 2.5);
     }
   }
+  .md\:text-\[0px\] {
+    @media (width >= 48rem) {
+      font-size: 0px;
+    }
+  }
   .md\:text-\[28px\] {
     @media (width >= 48rem) {
       font-size: 28px;
@@ -1719,9 +1769,19 @@
       font-size: 40px;
     }
   }
+  .md\:text-\[60px\] {
+    @media (width >= 48rem) {
+      font-size: 60px;
+    }
+  }
   .md\:text-\[80px\] {
     @media (width >= 48rem) {
       font-size: 80px;
+    }
+  }
+  .md\:text-\[100px\] {
+    @media (width >= 48rem) {
+      font-size: 100px;
     }
   }
   .lg\:block {
