@@ -1214,6 +1214,12 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
   .carousel-item {
     @layer daisyui.l1.l2.l3 {
       box-sizing: content-box;
@@ -1518,6 +1524,9 @@
       }
     }
   }
+  .text-\[1px\] {
+    font-size: 1px;
+  }
   .text-\[16px\] {
     font-size: 16px;
   }
@@ -1536,6 +1545,9 @@
   .text-\[40px\] {
     font-size: 40px;
   }
+  .text-\[60px\] {
+    font-size: 60px;
+  }
   .text-\[80px\] {
     font-size: 80px;
   }
@@ -1549,6 +1561,9 @@
   }
   .text-wrap {
     text-wrap: wrap;
+  }
+  .text-\[px\] {
+    color: px;
   }
   .text-black {
     color: var(--color-black);
@@ -1702,6 +1717,11 @@
   .md\:text-\[40px\] {
     @media (width >= 48rem) {
       font-size: 40px;
+    }
+  }
+  .md\:text-\[80px\] {
+    @media (width >= 48rem) {
+      font-size: 80px;
     }
   }
   .lg\:block {
