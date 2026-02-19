@@ -14,3 +14,7 @@
  @utility btn-slider{
     @apply rounded-full w-5.25 h-5.25 border border-white border-solid bg-[#ffffff00] text-black  active:bg-white;
  }
+
+  @utility after{
+    @apply after:h-1 after:w-[65px] after:mt-[20px] after:block after:bg-primarycolor after:content-[''];
+ }
