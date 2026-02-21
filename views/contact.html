@@ -104,7 +104,8 @@
 
  <!-- Hero Section -->
      
-  <section class="bg-[url(../image/contact/CONTACT-IMAGE.png)]
+ <main>
+     <section class="bg-[url(../image/contact/CONTACT-IMAGE.png)]
     bg-cover bg-no-repeat bg-center 
     h-screen  w-full group/about ">
    <div class="container mx-auto flex flex-col gap-2.5 justify-center items-center opacity-0 group-hover/about:opacity-100 
@@ -124,6 +125,45 @@
     </div>
    </div>
    </section>
+   <!-- CONTACT FORM -->
+
+   <section class="py-18">
+    <div class="text-center">
+        <h2 class="text-[40px] md:text-[60px] font-bold font-third">CONTACT FORM</h2>
+        <p class="text-[22px] md:text-[30px] text-black/40 mt-4">
+            There are many variations of passages of Lorem Ipsum available, but the majority have 
+            suffered <br>alteration, by injected humour, or new randomised words which don't look believable.
+        </p>
+    </div>
+    <div class="container mx-auto">
+    <div class="py-10">
+        <form action="" >
+            <div class="grid grid-cols-1   md:grid-cols-2 gap-25">
+                <div class="flex flex-col justify-between gap-5">
+                <input type="text" placeholder="Full  Name*" name="name" class="border-3 py-7 px-4.25">
+                <input type="email" placeholder="Email Address*" name="email" class="border-3 py-7 px-4.25">
+                <input type="tel" placeholder="Phone Number*" name="phone" class="border-3 py-7 px-4.25">
+            </div>
+            <div>
+                <textarea name="Message" id="" placeholder="Your Message..."
+                class="w-full h-80.25 border-3 focus:border-primarycolor  p-5"
+                ></textarea>
+            </div>
+            </div>
+            
+      <div class=" flex justify-center mt-10">
+    <button type="submit"
+      class="bg-primarycolor text-white py-4 px-10 font-bold
+       hover:bg-white hover:text-primarycolor hover:border-primarycolor
+        hover:border-2 transition-all">
+      SEND MESSAGE
+    </button>
+  </div>
+        </form>
+    </div>
+    </div>
+   </section>
+ </main>
 
    <!-- footer -->
 
