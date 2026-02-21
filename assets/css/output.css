@@ -1711,6 +1711,12 @@
   .bg-\[url\(\.\.\/image\/about\/\)\] {
     background-image: url(../image/about/);
   }
+  .bg-\[url\(\.\.\/image\/about\/CONTACT-IMAGE\.png\)\] {
+    background-image: url(../image/about/CONTACT-IMAGE.png);
+  }
+  .bg-\[url\(\.\.\/image\/about\/CONTACTIMAGE\.png\)\] {
+    background-image: url(../image/about/CONTACTIMAGE.png);
+  }
   .bg-\[url\(\.\.\/image\/about\/about\)\] {
     background-image: url(../image/about/about);
   }
@@ -1719,6 +1725,9 @@
   }
   .bg-\[url\(\.\.\/image\/about\/slider\.png\)\] {
     background-image: url(../image/about/slider.png);
+  }
+  .bg-\[url\(\.\.\/image\/contact\/CONTACT-IMAGE\.png\)\] {
+    background-image: url(../image/contact/CONTACT-IMAGE.png);
   }
   .bg-\[url\(\.\/\.\.\/image\/home\/NARURAL-FLAVORS\/NARURAL_FLAVORS\.png\)\] {
     background-image: url(./../image/home/NARURAL-FLAVORS/NARURAL_FLAVORS.png);
