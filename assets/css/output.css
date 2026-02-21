@@ -1279,6 +1279,9 @@
   .mt-17\.5 {
     margin-top: calc(var(--spacing) * 17.5);
   }
+  .mt-18 {
+    margin-top: calc(var(--spacing) * 18);
+  }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
@@ -1841,6 +1844,9 @@
   }
   .py-20 {
     padding-block: calc(var(--spacing) * 20);
+  }
+  .py-30 {
+    padding-block: calc(var(--spacing) * 30);
   }
   .py-32 {
     padding-block: calc(var(--spacing) * 32);
