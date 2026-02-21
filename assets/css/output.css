@@ -1659,8 +1659,35 @@
   .bg-\[url\(\'\.\/\.\.\/image\/home\/images-list\/Tasty-Muesli\.png\'\)\] {
     background-image: url('./../image/home/images-list/Tasty-Muesli.png');
   }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\.\.\)\] {
+    background-image: url(..);
+  }
+  .bg-\[url\(\.\.\/\)\] {
+    background-image: url(../);
+  }
   .bg-\[url\(\.\.\/assets\/image\/about\/slider\.png\)\] {
     background-image: url(../assets/image/about/slider.png);
+  }
+  .bg-\[url\(\.\.\/imag\)\] {
+    background-image: url(../imag);
+  }
+  .bg-\[url\(\.\.\/image\)\] {
+    background-image: url(../image);
+  }
+  .bg-\[url\(\.\.\/image\/about\)\] {
+    background-image: url(../image/about);
+  }
+  .bg-\[url\(\.\.\/image\/about\/\)\] {
+    background-image: url(../image/about/);
+  }
+  .bg-\[url\(\.\.\/image\/about\/about\)\] {
+    background-image: url(../image/about/about);
+  }
+  .bg-\[url\(\.\.\/image\/about\/about\.png\)\] {
+    background-image: url(../image/about/about.png);
   }
   .bg-\[url\(\.\.\/image\/about\/slider\.png\)\] {
     background-image: url(../image/about/slider.png);
@@ -1820,6 +1847,9 @@
   }
   .py-42 {
     padding-block: calc(var(--spacing) * 42);
+  }
+  .py-55 {
+    padding-block: calc(var(--spacing) * 55);
   }
   .text-center {
     text-align: center;
