@@ -1679,6 +1679,12 @@
   .bg-\[url\(\'\.\/\.\.\/image\/home\/images-list\/Tasty-Muesli\.png\'\)\] {
     background-image: url('./../image/home/images-list/Tasty-Muesli.png');
   }
+  .bg-\[url\(\.\.\/image\/\/slider\.png\)\] {
+    background-image: url(../image//slider.png);
+  }
+  .bg-\[url\(\.\.\/image\/a\/slider\.png\)\] {
+    background-image: url(../image/a/slider.png);
+  }
   .bg-\[url\(\.\.\/image\/about\/about\.png\)\] {
     background-image: url(../image/about/about.png);
   }
@@ -1687,6 +1693,21 @@
   }
   .bg-\[url\(\.\.\/image\/contact\/CONTACT-IMAGE\.png\)\] {
     background-image: url(../image/contact/CONTACT-IMAGE.png);
+  }
+  .bg-\[url\(\.\.\/image\/ga\/slider\.png\)\] {
+    background-image: url(../image/ga/slider.png);
+  }
+  .bg-\[url\(\.\.\/image\/galler\/slider\.png\)\] {
+    background-image: url(../image/galler/slider.png);
+  }
+  .bg-\[url\(\.\.\/image\/gallery\/\.png\)\] {
+    background-image: url(../image/gallery/.png);
+  }
+  .bg-\[url\(\.\.\/image\/gallery\/Gallery\.png\)\] {
+    background-image: url(../image/gallery/Gallery.png);
+  }
+  .bg-\[url\(\.\.\/image\/gallery\/slider\.png\)\] {
+    background-image: url(../image/gallery/slider.png);
   }
   .bg-\[url\(\.\/\.\.\/image\/home\/NARURAL-FLAVORS\/NARURAL_FLAVORS\.png\)\] {
     background-image: url(./../image/home/NARURAL-FLAVORS/NARURAL_FLAVORS.png);
