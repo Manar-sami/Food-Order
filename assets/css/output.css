@@ -1558,6 +1558,9 @@
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
+  .gap-5\.25 {
+    gap: calc(var(--spacing) * 5.25);
+  }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
   }
@@ -1593,6 +1596,9 @@
   }
   .gap-25 {
     gap: calc(var(--spacing) * 25);
+  }
+  .gap-\[21px\] {
+    gap: 21px;
   }
   .menu-sm {
     @layer daisyui.l1.l2 {
