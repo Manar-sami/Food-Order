@@ -18,3 +18,6 @@
   @utility after{
     @apply after:h-1 after:w-[65px] after:mt-[20px] after:block after:bg-primarycolor after:content-[''];
  }
+ @utility input{
+   @apply border-2 border-[#00000066] py-[22px] px-[12px] rounded-none;
+ }
