@@ -1284,6 +1284,9 @@
   .mt-17\.5 {
     margin-top: calc(var(--spacing) * 17.5);
   }
+  .mt-\[31px\] {
+    margin-top: 31px;
+  }
   .mt-\[40px\] {
     margin-top: 40px;
   }
@@ -1295,6 +1298,9 @@
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-\[20px\] {
+    margin-bottom: 20px;
   }
   .carousel-item {
     @layer daisyui.l1.l2.l3 {
@@ -1691,6 +1697,15 @@
   .bg-\[url\(\'\.\/\.\.\/image\/home\/images-list\/Tasty-Muesli\.png\'\)\] {
     background-image: url('./../image/home/images-list/Tasty-Muesli.png');
   }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\.\)\] {
+    background-image: url(.);
+  }
+  .bg-\[url\(\.\.\/assets\/image\/reservation\/reservation\.png\)\] {
+    background-image: url(../assets/image/reservation/reservation.png);
+  }
   .bg-\[url\(\.\.\/image\/about\/about\.png\)\] {
     background-image: url(../image/about/about.png);
   }
@@ -1706,6 +1721,15 @@
   .bg-\[url\(\.\.\/image\/reservation\/reservation\.png\)\] {
     background-image: url(../image/reservation/reservation.png);
   }
+  .bg-\[url\(\.\/\)\] {
+    background-image: url(./);
+  }
+  .bg-\[url\(\.\/\.\.\/\/image\/reservation\/reservation\.png\)\] {
+    background-image: url(./..//image/reservation/reservation.png);
+  }
+  .bg-\[url\(\.\/\.\.\/assets\/image\/reservation\/reservation\.png\)\] {
+    background-image: url(./../assets/image/reservation/reservation.png);
+  }
   .bg-\[url\(\.\/\.\.\/image\/home\/NARURAL-FLAVORS\/NARURAL_FLAVORS\.png\)\] {
     background-image: url(./../image/home/NARURAL-FLAVORS/NARURAL_FLAVORS.png);
   }
@@ -1717,6 +1741,24 @@
   }
   .bg-\[url\(\.\/\.\.\/image\/home\/slider\/FRESH_INGREDIENTS\.png\)\] {
     background-image: url(./../image/home/slider/FRESH_INGREDIENTS.png);
+  }
+  .bg-\[url\(\.\/\.\.\/image\/reservation\/\.png\)\] {
+    background-image: url(./../image/reservation/.png);
+  }
+  .bg-\[url\(\.\/\.\.\/image\/reservation\/OUR-CLINTES\.png\)\] {
+    background-image: url(./../image/reservation/OUR-CLINTES.png);
+  }
+  .bg-\[url\(\.\/\.\.\/image\/reservation\/reservation\.png\)\] {
+    background-image: url(./../image/reservation/reservation.png);
+  }
+  .bg-\[url\(\.\/\/assets\/image\/reservation\/reservation\.png\)\] {
+    background-image: url(.//assets/image/reservation/reservation.png);
+  }
+  .bg-\[url\(\.\/assets\/image\/reservation\/reservation\.png\)\] {
+    background-image: url(./assets/image/reservation/reservation.png);
+  }
+  .bg-\[url\(\/assets\/image\/reservation\/reservation\.png\)\] {
+    background-image: url(/assets/image/reservation/reservation.png);
   }
   .bg-cover {
     background-size: cover;
@@ -1796,6 +1838,12 @@
   .px-22 {
     padding-inline: calc(var(--spacing) * 22);
   }
+  .px-\[40px\] {
+    padding-inline: 40px;
+  }
+  .px-\[70px\] {
+    padding-inline: 70px;
+  }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
   }
@@ -1816,6 +1864,9 @@
   }
   .py-4\.5 {
     padding-block: calc(var(--spacing) * 4.5);
+  }
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
   }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
@@ -1865,8 +1916,23 @@
   .py-55 {
     padding-block: calc(var(--spacing) * 55);
   }
+  .py-62 {
+    padding-block: calc(var(--spacing) * 62);
+  }
+  .py-62\.5 {
+    padding-block: calc(var(--spacing) * 62.5);
+  }
+  .py-\[0px\] {
+    padding-block: 0px;
+  }
   .py-\[1\] {
     padding-block: 1;
+  }
+  .py-\[2\] {
+    padding-block: 2;
+  }
+  .py-\[2px\] {
+    padding-block: 2px;
   }
   .py-\[16px\] {
     padding-block: 16px;
@@ -1874,14 +1940,38 @@
   .py-\[18px\] {
     padding-block: 18px;
   }
+  .py-\[20\] {
+    padding-block: 20;
+  }
   .py-\[20px\] {
     padding-block: 20px;
   }
   .py-\[22px\] {
     padding-block: 22px;
   }
+  .py-\[24px\] {
+    padding-block: 24px;
+  }
+  .py-\[29px\] {
+    padding-block: 29px;
+  }
   .py-\[30px\] {
     padding-block: 30px;
+  }
+  .py-\[120px\] {
+    padding-block: 120px;
+  }
+  .py-\[200px\] {
+    padding-block: 200px;
+  }
+  .py-\[220px\] {
+    padding-block: 220px;
+  }
+  .py-\[250px\] {
+    padding-block: 250px;
+  }
+  .py-\[300px\] {
+    padding-block: 300px;
   }
   .text-center {
     text-align: center;
@@ -2156,6 +2246,20 @@
       content: var(--tw-content);
     }
   }
+  .hover\:rounded-none {
+    &:hover {
+      @media (hover: hover) {
+        border-radius: 0;
+      }
+    }
+  }
+  .hover\:rounded-br-none {
+    &:hover {
+      @media (hover: hover) {
+        border-bottom-right-radius: 0;
+      }
+    }
+  }
   .hover\:border {
     &:hover {
       @media (hover: hover) {
@@ -2315,6 +2419,21 @@
       padding-inline: calc(var(--spacing) * 3.75);
     }
   }
+  .md\:px-\[0px\] {
+    @media (width >= 48rem) {
+      padding-inline: 0px;
+    }
+  }
+  .md\:px-\[50px\] {
+    @media (width >= 48rem) {
+      padding-inline: 50px;
+    }
+  }
+  .md\:px-\[70px\] {
+    @media (width >= 48rem) {
+      padding-inline: 70px;
+    }
+  }
   .md\:py-2\.5 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 2.5);
@@ -2323,6 +2442,11 @@
   .md\:py-\[20px\] {
     @media (width >= 48rem) {
       padding-block: 20px;
+    }
+  }
+  .md\:py-\[24px\] {
+    @media (width >= 48rem) {
+      padding-block: 24px;
     }
   }
   .md\:text-left {
