@@ -1299,6 +1299,9 @@
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
+  }
   .mb-\[20px\] {
     margin-bottom: 20px;
   }
@@ -1936,6 +1939,9 @@
       }
     }
   }
+  .text-\[0px\] {
+    font-size: 0px;
+  }
   .text-\[12px\] {
     font-size: 12px;
   }
@@ -1981,11 +1987,20 @@
   .text-\[50px\] {
     font-size: 50px;
   }
+  .text-\[55px\] {
+    font-size: 55px;
+  }
   .text-\[60px\] {
     font-size: 60px;
   }
   .text-\[80px\] {
     font-size: 80px;
+  }
+  .text-\[90px\] {
+    font-size: 90px;
+  }
+  .text-\[550px\] {
+    font-size: 550px;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -2394,6 +2409,11 @@
       }
     }
   }
+  .md\:text-\[0px\] {
+    @media (width >= 48rem) {
+      font-size: 0px;
+    }
+  }
   .md\:text-\[22px\] {
     @media (width >= 48rem) {
       font-size: 22px;
@@ -2427,6 +2447,11 @@
   .md\:text-\[80px\] {
     @media (width >= 48rem) {
       font-size: 80px;
+    }
+  }
+  .md\:text-\[90px\] {
+    @media (width >= 48rem) {
+      font-size: 90px;
     }
   }
   .md\:text-\[100px\] {
