@@ -19,5 +19,5 @@
     @apply after:h-1 after:w-[65px] after:mt-[20px] after:block after:bg-primarycolor after:content-[''];
  }
  @utility input{
-   @apply border-2 border-[#00000066] py-[22px] px-[12px] rounded-none;
+   @apply border-2 border-[#00000066] py-7.5 pr-11.25 pl-4.25  placeholder:text-[20px] rounded-none  focus:outline-none focus:shadow-[0_0_20px_rgba(248,191,44,0.5)] transition-all duration-300;
  }
